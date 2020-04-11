@@ -15,5 +15,6 @@ public class MainActivity extends AppCompatActivity {
         ViewPager2   viewPager2   = findViewById(R.id.vp2_main);
         SlideAdapter slideAdapter = new SlideAdapter(this);
         viewPager2.setAdapter(slideAdapter);
+        viewPager2.setOrientation(ViewPager2.ORIENTATION_VERTICAL);
     }
 }

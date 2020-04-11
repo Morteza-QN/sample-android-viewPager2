@@ -13,7 +13,7 @@ import androidx.fragment.app.Fragment;
 public class SlideFragment extends Fragment {
     private static final String EXTRA_KEY_DATA = "data";
 
-    public static SlideFragment newInstance(String data) {
+    static SlideFragment newInstance(String data) {
         Bundle        args     = new Bundle();
         SlideFragment fragment = new SlideFragment();
         args.putString(EXTRA_KEY_DATA, data);

@@ -7,7 +7,7 @@ import androidx.viewpager2.adapter.FragmentStateAdapter;
 
 public class SlideAdapter extends FragmentStateAdapter {
 
-    public SlideAdapter(@NonNull FragmentActivity fragmentActivity) {
+    SlideAdapter(@NonNull FragmentActivity fragmentActivity) {
         super(fragmentActivity);
     }
 
