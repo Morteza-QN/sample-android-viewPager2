@@ -1,0 +1,2 @@
+rootProject.name='Sample Android ViewPager2'
+include ':app'
